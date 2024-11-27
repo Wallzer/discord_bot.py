@@ -283,6 +283,11 @@ class Fun_Commands(commands.Cog):
         await msg.edit(content=f"> {result}\nBetter luck next time")
 
     @commands.command()
+    async def kys(self,ctx:CustomContext)
+        kys='pls kill urself'
+        await ctx.send(f'Hello nigger {kys}')
+
+    @commands.command()
     async def randomfact(self, ctx: CustomContext):
         """Sends a random fun fact."""
         facts = [
